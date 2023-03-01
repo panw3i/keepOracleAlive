@@ -1,2 +1,2 @@
-0 0 * * * /script.sh >/dev/null 2>&1
-0 1 * * * kill $(pgrep script.sh)
+0 0 * * * /script.sh >/dev/null 2>&1 
+0 1 * * * kill $(pgrep script.sh) 
