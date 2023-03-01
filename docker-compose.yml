@@ -1,0 +1,7 @@
+version: '3'
+services:
+  crontab:
+    build: .
+    container_name: crontab
+    volumes:
+      - ./cron.log:/var/log/cron.log
